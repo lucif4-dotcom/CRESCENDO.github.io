@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="book-section">
+        <p>With ❤️ by <a href="https://github.com/lucif4-dotcom" target="_blank">Charan Medapati</a></p>
+        <div class="container">
+            <div class="right">
+                <figure class="back" id="back-cover"></figure>
+                <figure class="front" style="background-image: url('images/page1.jpg');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('C:\\Users\\chara\\Desktop\\MongoDB Test\\output_images\\page_1.jpg');"></figure>
+                <figure class="front" style="background-image: url('images/page2.jpg');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/page2.jpg');"></figure>
+                <figure class="front" style="background-image: url('images/page3.jpg');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/page3.jpg');"></figure>
+                <figure class="front" style="background-image: url('images/page4.jpg');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('images/page4.jpg');"></figure>
+                <figure class="front" style="background-image: url('C:\\Users\\chara\\Desktop\\MongoDB Test\\output_images\\page_1.jpg');"></figure>
+            </div>
+            <div class="right">
+                <figure class="back" style="background-image: url('C:\\Users\\chara\\Desktop\\MongoDB Test\\output_images\\page_2.jpg');"></figure>
+                <figure class="front" id="cover">
+                    <h1>CRESCENDO 3.0</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, modi.</p>
+                </figure>
+            </div>
+        </div>
+        <button onclick="turnLeft()">Prev</button> <button onclick="turnRight()">Next</button>
+        <br/>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
